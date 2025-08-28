@@ -1,0 +1,30 @@
+enable
+configure terminal
+!
+! DHCP Pool untuk LAN1
+ip dhcp pool LAN1
+ network 192.168.1.0 255.255.255.0
+ default-router 192.168.1.1
+ dns-server 8.8.8.8
+!
+! DHCP Pool untuk LAN2
+ip dhcp pool LAN2
+ network 192.168.2.0 255.255.255.0
+ default-router 192.168.2.1
+ dns-server 8.8.8.8
+!
+! Exclude IP Gateway
+ip dhcp excluded-address 192.168.1.1
+ip dhcp excluded-address 192.168.2.1
+!
+! Assign IP pada interface
+interface gigabitEthernet 0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+!
+interface gigabitEthernet 0/1
+ ip address 192.168.2.1 255.255.255.0
+ no shutdown
+!
+end
+write memory
