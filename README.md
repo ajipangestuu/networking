@@ -5,7 +5,9 @@ Setiap lab dibuat step-by-step dengan dokumentasi, file `.pkt`, dan konfigurasi 
 
 ---
 
-![Networking GIF](networking.gif)
+<p align="center">
+  <img src="networking.gif" alt="Networking GIF" width="500"/>
+</p>
 
 ## 📂 Daftar Lab
 
