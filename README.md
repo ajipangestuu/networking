@@ -5,6 +5,8 @@ Setiap lab dibuat step-by-step dengan dokumentasi, file `.pkt`, dan konfigurasi 
 
 ---
 
+![Networking GIF](networking.gif)
+
 ## 📂 Daftar Lab
 
 ### ✅ Basic Labs
