@@ -1,12 +1,11 @@
 # 🖧 Networking Projects (Industrial Labs 2025)
 
-Kumpulan lab **Cisco Packet Tracer** untuk latihan konfigurasi jaringan dari dasar sampai skenario yang umum dipakai di **industri 2025**.  
-Setiap lab dibuat step-by-step dengan dokumentasi, file `.pkt`, dan konfigurasi lengkap agar mudah dipelajari & direplikasi.
-
+A collection of Cisco Packet Tracer labs for practicing network configurations from the basics to common industry scenarios in 2025.
+Each lab is designed step-by-step with documentation, `.pkt` files, and complete configurations for easy learning and replication.
 ---
 
 <p align="center">
-  <img src="networking.gif" alt="Networking GIF" width="500"/>
+  <img src="networking.gif" alt="Networking GIF" width="1000"/>
 </p>
 
 ## 📂 Daftar Lab
