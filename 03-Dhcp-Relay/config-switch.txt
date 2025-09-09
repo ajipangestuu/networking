@@ -1,0 +1,26 @@
+Create VLANs for each subnet:
+Switch(config)#vlan 10
+Switch(config-vlan)#name MARKETING
+Switch(config-vlan)#vlan 20
+Switch(config-vlan)#name IT
+Switch(config-vlan)#vlan 30
+Switch(config-vlan)#name HR
+
+
+Assign VLANs to Ports:
+Switch(config)#interface range fastEthernet 0/2-4
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 10
+Switch(config-if-range)#exit
+Switch(config)#interface range fastEthernet 0/5-7
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 20
+Switch(config-if-range)#exit
+Switch(config)#interface range fastEthernet 0/8-10
+Switch(config-if-range)#switchport mode access
+Switch(config-if-range)#switchport access vlan 30
+Switch(config-if-range)#exit
+Switch(config)#interface fastEthernet 0/1
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#switchport trunk allowed vlan all
+Switch(config-if)#exit

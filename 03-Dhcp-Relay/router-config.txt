@@ -1,0 +1,25 @@
+Configure Sub-Interfaces for Each VLAN:
+Router(config)#interface GigabitEthernet0/1.10
+Router(config-if)#encapsulation dot1Q 10
+Router(config-if)#ip address 192.168.10.1
+255.255.255.0
+Router(config-if)#exit
+Router(config)#interface GigabitEthernet0/1.20
+Router(config-if)#encapsulation dot1Q 20
+Router(config-if)#ip address 192.168.20.1
+255.255.255.0
+Router(config-if)#exit
+Router(config)#interface GigabitEthernet0/1.30
+Router(config-if)#encapsulation dot1Q 30
+Router(config-if)#ip address 192.168.30.1
+255.255.255.0
+Router(config-if)#exit
+
+config ip helper 
+Router(config)#interface gigabitEthernet 0/1.20
+Router(config-subif)#ip helper-address 192.168.10.2
+Router(config-subif)#exit
+Router(config)#interface gigabitEthernet 0/1.30
+Router(config-subif)#ip helper-address 192.168.10.2
+Router(config)#interface gigabitEthernet 0/0
+Router(config-if)#no shutdown
