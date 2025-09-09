@@ -12,7 +12,7 @@
 - 1 DHCP Server
 - 9 PCs (Marketing, IT, HR)
 
-![Topology](topology.png)
+![Topology](image.png)
 
 ## 📌 VLAN Plan
 | VLAN | Department | Subnet          | Gateway       | DHCP Range           |
