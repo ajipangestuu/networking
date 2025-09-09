@@ -5,7 +5,7 @@ Each lab is designed step-by-step with documentation, `.pkt` files, and complete
 ---
 
 <p align="center">
-  <img src="networking.gif" alt="Networking GIF" width="1000"/>
+  <img src="networking.gif" alt="Networking GIF" width="512"/>
 </p>
 
 ## 📂 Daftar Lab
