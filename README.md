@@ -75,7 +75,7 @@ Each lab is designed step-by-step with documentation, `.pkt` files, and complete
 Progress berjalan (2025):  
 - [x] Lab 01 – Basic Config + DHCP  
 - [x] Lab 02 – VLAN + Trunking + DHCP  
-- [ ] Lab 03 – Inter-VLAN Routing + DHCP Relay  
+- [x] Lab 03 – Inter-VLAN Routing + DHCP Relay  
 - [ ] Lab 04 – OSPF Single Area  
 - [ ] Lab 05 – OSPF Multi-Area  
 - [ ] Lab 06 – ACL + VLAN Security  
