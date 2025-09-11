@@ -1,0 +1,56 @@
+SWITCH 1 : 
+
+Switch>enable
+Switch#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#hostname SW-1
+SW-1(config)#vlan 10
+SW-1(config-vlan)#name IT
+SW-1(config-vlan)#vlan 20
+SW-1(config-vlan)#name HRD
+SW-1(config-vlan)#ex
+SW-1(config)#interface range fast
+SW-1(config)#interface range fastEthernet 0/2-4
+SW-1(config-if-range)#switchport mode access
+SW-1(config-if-range)#switchport access vlan 10
+SW-1(config-if-range)#ex
+SW-1(config)#interface range fast
+SW-1(config)#interface range fastEthernet 0/5-7
+SW-1(config-if-range)#switchport mode access
+SW-1(config-if-range)#switchport access vlan 20
+SW-1(config-if-range)#exit
+SW-1(config)#interface fa 0/1
+SW-1(config-if)#switchport mode trunk
+SW-1(config-if)#switchport trunk allowed vlan all
+SW-1(config-if)#ex
+SW-1(config)#
+
+SWITCH 2 :
+
+Switch>enable
+Switch#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#hostname
+% Incomplete command.
+Switch(config)#hostname SW-2
+SW-2(config)#vlan 30
+SW-2(config-vlan)#name FINANCE
+SW-2(config-vlan)#vlan 40
+SW-2(config-vlan)#name TRADER
+SW-2(config-vlan)#exit
+SW-2(config)#interface range fast
+SW-2(config)#interface range fastEthernet 0/2-4
+SW-2(config-if-range)#switchport mode access
+SW-2(config-if-range)#switchport access vlan 30
+SW-2(config-if-range)#ex
+SW-2(config)#interface range fast
+SW-2(config)#interface range fastEthernet 0/5-7
+SW-2(config-if-range)#switchport mode access
+SW-2(config-if-range)#switchport access vlan 40
+SW-2(config-if-range)#ex
+SW-2(config)#interface fast
+SW-2(config)#interface fastEthernet 0/1
+SW-2(config-if)#switchport mode trunk
+SW-2(config-if)#switchport trunk allowed vlan all
+SW-2(config-if)#ex
+SW-2(config)#
