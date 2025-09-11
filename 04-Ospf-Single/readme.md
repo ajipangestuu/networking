@@ -15,7 +15,7 @@
 - 1 Server (Email Service)  
 - Beberapa PC (IT, HRD, Finance, Trader)  
 
-![Topology](image.png)
+![Topology](topologi.png)
 
 ---
 
