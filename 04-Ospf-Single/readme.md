@@ -15,7 +15,7 @@
 - 1 Server (Email Service)  
 - Beberapa PC (IT, HRD, Finance, Trader)  
 
-![Topology](Screenshot 2025-09-11 215728.png)
+![Topology](ospf.png)
 
 ---
 
