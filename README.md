@@ -1,10 +1,15 @@
-## 🖧 Networking Projects (Industrial Labs 2025) A collection of **Cisco Packet Tracer** labs for practicing network configurations from the basics to common **industry scenarios in 2025**.
-Each lab is designed step-by-step with documentation, `.pkt` files, and complete configurations for easy learning and replication.
+# 🖧 Networking Projects (Industrial Labs 2025)
+
+Kumpulan **Cisco Packet Tracer Labs** untuk latihan konfigurasi jaringan — dari dasar hingga skenario **industry-ready 2025**.  
+Setiap lab disusun **step-by-step** dengan dokumentasi, file `.pkt`, dan konfigurasi lengkap agar mudah dipelajari & direplikasi.  
+
 ---
 
 <p align="center">
   <img src="networking.gif" alt="Networking GIF" width="512"/>
 </p>
+
+---
 
 ## 📂 Daftar Lab
 
@@ -27,7 +32,7 @@ Each lab is designed step-by-step with documentation, `.pkt` files, and complete
 - **Lab 03 – Inter-VLAN Routing + DHCP Relay**
   - Router-on-a-Stick untuk inter-VLAN
   - Centralized DHCP Server
-  - DHCP Relay (IP Helper)
+  - DHCP Relay (`ip helper-address`)
   - Segmentasi real-world (HR, Finance, IT, Guest)
 
 - **Lab 04 – OSPF Single Area**
@@ -60,19 +65,19 @@ Each lab is designed step-by-step with documentation, `.pkt` files, and complete
 ## 🎯 Tujuan
 - Dokumentasi hands-on lab untuk **pembelajaran & portofolio**  
 - Menunjukkan skill dasar & intermediate **network engineer**  
-- Menjadi resource terbuka bagi orang lain yang belajar networking  
+- Menjadi resource terbuka bagi siapa pun yang belajar networking  
 
 ---
 
 ## 🔧 Tools
-- **Cisco Packet Tracer** (simulasi topologi & config)  
+- **Cisco Packet Tracer** (simulasi topologi & konfigurasi)  
 - **Git + GitHub** (version control & portofolio)  
 - **Markdown** (dokumentasi project)  
 
 ---
 
 ## 🚀 Status
-Progress berjalan (2025):  
+Progress (2025):  
 - [x] Lab 01 – Basic Config + DHCP  
 - [x] Lab 02 – VLAN + Trunking + DHCP  
 - [x] Lab 03 – Inter-VLAN Routing + DHCP Relay  
