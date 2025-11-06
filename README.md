@@ -81,8 +81,8 @@ Progress (2025):
 - [x] Lab 01 – Basic Config + DHCP  
 - [x] Lab 02 – VLAN + Trunking + DHCP  
 - [x] Lab 03 – Inter-VLAN Routing + DHCP Relay  
-- [ ] Lab 04 – OSPF Single Area  
-- [ ] Lab 05 – OSPF Multi-Area  
+- [x] Lab 04 – OSPF Single Area  
+- [x] Lab 05 – OSPF Multi-Area  
 - [ ] Lab 06 – ACL + VLAN Security  
 - [ ] Lab 07 – Site-to-Site VPN (IPsec)  
 - [ ] Lab 08 – Redundancy (HSRP/VRRP)  
