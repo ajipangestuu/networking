@@ -15,6 +15,8 @@
 - 1 Server (Email Service)  
 - Beberapa PC (IT, HRD, Finance, Trader)  
 
+![Topology](ospf.png)
+
 ---
 
 ## 📌 VLAN Plan
